@@ -1,0 +1,16 @@
+How to create the project stepwise.
+1>npm init.
+2>npm i express.
+3>npm i mongoose.
+4>npm i nodemon.
+5>npm i hbs.
+Make Directory/folder.
+5>mkdir src.
+6>add file app.js in src folder.                type nul > app.js.
+7>Add database folder in src directory.         mkdir db.
+8>Add Models folder in src directory.           mkdir models.
+9>Add conn.js file in db directory.
+
+
+Add this in package.json / debug.  
+"dev" : "nodemon src/app.js -e js,hbs"
